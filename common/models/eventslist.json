@@ -1,0 +1,24 @@
+{
+  "name": "eventslist",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "events": {
+      "type": [
+        "object"
+      ]
+    },
+    "users": {
+      "type": [
+        "object"
+      ]
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
