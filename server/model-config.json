@@ -38,5 +38,9 @@
   "eventslist": {
     "dataSource": "fcapi",
     "public": true
+  },
+  "userslist": {
+    "dataSource": "fcapi",
+    "public": true
   }
 }

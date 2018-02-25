@@ -1,33 +1,19 @@
 {
-  "name": "eventslist",
+  "name": "userslist",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {
     "validateUpsert": true
   },
   "properties": {
-    "email": {
-      "type": "string"
-    },
     "username": {
       "type": "string"
     },
-    "year": {
+    "email": {
       "type": "string"
     },
-    "month": {
+    "password": {
       "type": "string"
-    },
-    "day": {
-      "type": "string"
-    },
-    "todolist": {
-      "type": [
-        {
-          "content": "string",
-          "time": "string"
-        }
-      ]
     }
   },
   "validations": [],
